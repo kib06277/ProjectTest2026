@@ -1,0 +1,18 @@
+# 作業系統產生的檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 設定（每個人的電腦都不一樣，不應上傳）
+.idea/
+*.iml
+.vscode/
+
+# 建置產物與本機設定
+build/
+.gradle/
+local.properties
+
+# 金鑰（絕對不能上傳）
+*.keystore
+*.jks

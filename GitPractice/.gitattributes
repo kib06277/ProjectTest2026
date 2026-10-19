@@ -1,0 +1,15 @@
+# 儲存庫內統一使用 LF 換行，避免 Windows 與 Linux 之間整份檔案被標示修改
+* text=auto
+
+# shell script 必須是 LF
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Windows 批次檔維持 CRLF
+*.bat text eol=crlf
+
+# 二進位檔不做換行轉換
+*.jar binary
+*.png binary
+*.jpg binary
+*.webp binary
